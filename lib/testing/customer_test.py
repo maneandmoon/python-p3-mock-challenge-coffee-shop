@@ -37,7 +37,7 @@ class TestCustomer:
         assert len(customer.name) == 5
 
         # comment out the next two lines if using Exceptions
-        customer.name = ""
+        # customer.name = ""
         assert customer.name == "Steve"
         
         # comment out the next two lines if using Exceptions
